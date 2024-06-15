@@ -11,5 +11,10 @@ pipeline {
         echo 'Testing completed'
       }
     }
+    stage('Deploy') {
+      steps {
+        echo 'Deploying completed'
+      }
+    }
   }
 }
