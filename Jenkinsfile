@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Build completed'
         timeout(time: 5, unit: 'SECONDS') {
-        powershell 'Start-Sleep -Seconds 10'
+        powershell 'Start-Sleep -Seconds 2'
         }
       }
     }
